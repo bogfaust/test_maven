@@ -8,6 +8,13 @@ public class TaskTests {
 	public void test1(){
 		Boolean boolTrue = true;
 
-		Assert.assertEquals(boolTrue, false, "Assert message");
+		Assert.assertEquals(boolTrue, true, "Assert message 1");
+	}
+
+	@Test
+	public void test2(){
+		Boolean boolTrue = true;
+
+		Assert.assertEquals(boolTrue, false, "Assert message 2");
 	}
 }
