@@ -12,8 +12,11 @@ public class TaskTests {
 	}
 
 	@Test
-	public void test2(){
+	@Parameters({"hey"})
+	public void test2(String str){
 		Boolean boolTrue = true;
+
+		System.out.println(str);
 
 		Assert.assertEquals(boolTrue, false, "Assert message 2");
 	}
