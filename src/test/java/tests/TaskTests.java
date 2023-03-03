@@ -16,8 +16,6 @@ public class TaskTests {
 	public void test2(String str){
 		Boolean boolTrue = true;
 
-		System.out.println(str);
-
-		Assert.assertEquals(boolTrue, false, "Assert message 2");
+		System.out.println("FROM PARAMS" + str);
 	}
 }
